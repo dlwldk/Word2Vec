@@ -7,6 +7,7 @@ word2vec 모델을 사용한 단어 임베딩 구현
 word2vec 모델을 사용하여 훈련 데이터의 모든 단어에 대한 임베딩 벡터를 찾고 모델은 다음 하이퍼파라미터를 사용하여 확률적 경사 하강법(SGD) optimizer 선택
 - hidden layer dimension: 5
 - learning rate: 0.1
+- epochs: 150
 
 ## 프로세스
 
@@ -15,7 +16,7 @@ word2vec 모델을 사용하여 훈련 데이터의 모든 단어에 대한 임�
     - 각 쌍은 target 단어로 특정 국가를, context 단어로 해당 국가의 수도로 지정
 
 2. **모델 훈련**:
-    - 지정된 하이퍼파라미터를 사용하여 SGD 옵티마이저로 word2vec 모델을 구현
+    - 지정된 hyperparameter을 사용하여 SGD 옵티마이저로 word2vec 모델을 구현
     - 더 나은 결과를 얻기 위해 hyperparameter을 조정
 
 3. **시각화**:
