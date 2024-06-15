@@ -3,7 +3,7 @@ word2vec 모델을 사용한 단어 임베딩을 구현한다.
 
 ## 설명
 
-목표는 유사성을 가진 target 단어와 context 단어로 구성된 30개의 단어 쌍을 생성한다.
+목표는 유사성을 가진 target 단어와 context 단어로 구성된 30개의 단어 쌍을 생성한다.
 word2vec 모델을 사용하여 훈련 데이터의 모든 단어에 대한 임베딩 벡터를 찾습니다. 모델은 다음 하이퍼파라미터를 사용하여 확률적 경사 하강법(SGD) optimizer을 선택했다.
 - hidden layer dimension: 5
 - learning rate: 0.1
